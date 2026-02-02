@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vulpi - Contact</title>
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#faf7f2;color:#2b2b2b;line-height:1.7}
+    header{background:#ff6a2b;color:#fff;padding:18px 12px}
+    .container{max-width:980px;margin:0 auto;padding:16px}
+    nav a{color:#fff;text-decoration:none;margin-right:14px;font-weight:bold}
+    nav a:hover{text-decoration:underline}
+    .card{background:#fff;border-radius:14px;padding:16px;box-shadow:0 6px 20px rgba(0,0,0,.08);margin-top:16px}
+    h1,h2{margin:0 0 10px 0}
+    footer{margin-top:22px;padding:14px;text-align:center;color:#555}
+    form{display:flex;flex-direction:column;gap:12px}
+    input,textarea{padding:10px;border:1px solid #ddd;border-radius:8px;font-family:Arial,Helvetica,sans-serif;font-size:14px}
+    textarea{resize:vertical;min-height:120px}
+    button{padding:10px;background:#ff6a2b;color:#fff;border:none;border-radius:8px;cursor:pointer;font-weight:bold}
+    button:hover{opacity:0.9}
+    @media(max-width:780px){nav a{margin-right:10px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Contact</h1>
+      <nav>
+        <a href="index.html">Acasă</a>
+        <a href="despre.html">Despre vulpi</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Contactează-ne</h2>
+      <p>Ai întrebări sau comentarii despre vulpi? Ne-ar plăcea să ți le răspundem! Completează formularul de mai jos și te vom contacta în curând.</p>
+      <form>
+        <input type="text" placeholder="Nume complet" required>
+        <input type="email" placeholder="Adresă de email" required>
+        <input type="text" placeholder="Subiect">
+        <textarea placeholder="Mesajul tău..." required></textarea>
+        <button type="submit">Trimite mesaj</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Alte modalități de contact</h2>
+      <p><strong>Email:</strong> info@vulpi.ro</p>
+      <p><strong>Telefon:</strong> +40 (0)123 456 789</p>
+      <p><strong>Adresă:</strong> Str. Exemplului, nr. 123, București, România</p>
+      <p>
+        <a href="index.html">← Înapoi la pagina Acasă</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">Vulpi – Contact • © 2026</div>
+  </footer>
+</body>
+</html>
